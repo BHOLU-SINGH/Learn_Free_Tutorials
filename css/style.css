@@ -1,0 +1,19 @@
+body{
+	background: lightgrey;
+}
+.title{
+	font-size: 45px;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 2px 2px 5px #777;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+}
+ul{
+	list-style: none;
+}
+.subheading{
+	color: tomato; 
+	font-size: 18px; 
+	font-weight: 700;
+}
