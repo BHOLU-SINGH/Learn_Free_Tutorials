@@ -2,14 +2,14 @@ body{
 	background: lightgrey;
 }
 .title{
-	background: #1688d8;
+	background-color: #1688d8;
+	color: #fff;
 	font-size: 4rem;
 	font-weight: 700;
-	color: #fff;
+	padding: 10px 0px 10px;
 	text-shadow: 2px 2px 8px #777;
 	word-spacing: 5px;
 	letter-spacing: 2px;
-	padding: 10px 0px 10px;
 }
 ul{
 	list-style: none;
