@@ -1,12 +1,12 @@
 .title{
-	background-color: #1688d8;
-	color: #fff;
+	background: #1688d8;
 	font-size: 4rem;
 	font-weight: 700;
-	padding: 10px 0px 10px;
+	color: #fff;
 	text-shadow: 2px 2px 8px #777;
 	word-spacing: 5px;
 	letter-spacing: 2px;
+	padding: 6px 0px 14px;
 }
 .editor{
 	background-color: #fff;
@@ -17,6 +17,7 @@
 }
 .editor:hover{
 	box-shadow: 1px 1px 3px #777;
+	transition: 0.6s;
 }
 ul{
 	list-style: none;
