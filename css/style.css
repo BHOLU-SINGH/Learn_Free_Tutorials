@@ -3,6 +3,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 .title{
 	background: #1688d8;
 	font-size: 4rem;
@@ -12,6 +15,11 @@
 	word-spacing: 5px;
 	letter-spacing: 2px;
 	padding: 6px 0px 14px;
+	user-select: none;
+}
+.container .row .col-md-3 ul li a{
+	user-select: none;
+	cursor: pointer;
 }
 .editor{
 	background-color: #fff;
@@ -19,28 +27,19 @@
 	border-radius: 3px;
 	border: none;
 	outline: none;
-}
-.editor:hover{
 	box-shadow: 1px 1px 3px #777;
 	transition: 0.6s;
-}
-ul{
-	list-style: none;
-}
-.subheading{
-	color: tomato; 
-	font-size: 18px; 
-	font-weight: 700;
-}
-.container .row .col h3 span{
-	color: tomato;
+	user-select: none;
 }
 .footer{
 	background: #1688d8;
+	color: #d0c8b1;
+	margin-top: 44.9vh;
 	font-size: 18px;
 	font-weight: 500;
 	margin-bottom: 5px;
 	padding: 10px 0 18px;
+	user-select: none;
 }
 .footer span{
 	font-size: 21px;
